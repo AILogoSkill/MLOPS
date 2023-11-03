@@ -1,7 +1,9 @@
 ## Module 1
 <details>
 * Create a simple pipeline for automating work with a machine learning model.
+  
 * Different stages of the machine learning pipeline are described in different Python scripts, which are then connected into a unified sequence of actions using a Bash script.
+  
 * All files should be placed in the "lab1" subdirectory of the root directory.
 Stages:
 
