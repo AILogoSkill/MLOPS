@@ -16,4 +16,22 @@ Write a Bash script (pipeline.sh) that sequentially runs all Python scripts. If 
 ```shell
 Model test accuracy is: 0.876
 ```
+## Module 2
+<details>
+In the practical assignment for this module, you need to apply the knowledge you've gained about working with Docker (and Docker Compose). You need to use the knowledge you've acquired about creating microservices. In this task, you need to deploy a microservice in a Docker container. For example, it could be a machine learning model that accepts requests via an API and returns responses. Another option could be implementing an application based on Streamlit (https://github.com/korelin/streamlit_demo_app).
+
+The results of this task should be placed in the lab3 subdirectory of your repository's root directory.
+
+Here's what you need to do:
+
+Prepare Python code for the model and microservice.
+Create a Dockerfile.
+Build a Docker image.
+Run a Docker container and verify its operation.
+Additional points will be awarded for:
+
+Using Docker Compose.
+Automating image building, linking the tag name to the build version (e.g., commit SHA, branch name).
+Deployment (uploading) of the image to an artifact repository such as Docker Hub.
+
 </details>
