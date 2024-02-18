@@ -25,12 +25,17 @@ The results of this task should be placed in the lab3 subdirectory of your repos
 Here's what you need to do:
 
 Prepare Python code for the model and microservice.
+
 Create a Dockerfile.
+
 Build a Docker image.
+
 Run a Docker container and verify its operation.
+
 Additional points will be awarded for:
 
 Using Docker Compose.
+
 Automating image building, linking the tag name to the build version (e.g., commit SHA, branch name).
 Deployment (uploading) of the image to an artifact repository such as Docker Hub.
 
